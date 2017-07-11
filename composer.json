@@ -1,0 +1,24 @@
+{
+    "name": "imtms/skeleton",
+    "description": "A PHP skeleton based on Slim and Medoo",
+    "keywords": ["microframework"],
+    "homepage": "http://github.com/imtms/Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TMs",
+            "email": "tms@live.cn",
+            "homepage": "https://tms.im/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "catfan/Medoo": "^1.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Controllers\\":"controllers/"
+        }
+    }
+}
